@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlappedStackedText", "so
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarppedText", "source\WarppedText\WarppedText.csproj", "{D8DCDEE8-F085-47FA-B642-0380F4C7F7F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternationalHelloWorld", "source\InternationalHelloWorld\InternationalHelloWorld.csproj", "{13107F2A-11F6-4A04-9B72-19B505993BFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{D8DCDEE8-F085-47FA-B642-0380F4C7F7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8DCDEE8-F085-47FA-B642-0380F4C7F7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8DCDEE8-F085-47FA-B642-0380F4C7F7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13107F2A-11F6-4A04-9B72-19B505993BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13107F2A-11F6-4A04-9B72-19B505993BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13107F2A-11F6-4A04-9B72-19B505993BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13107F2A-11F6-4A04-9B72-19B505993BFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{1A2D5C80-560D-4814-9937-2663EAB728DD} = {CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}
 		{2402F07F-E22C-4491-9D92-0A5562093585} = {CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}
 		{D8DCDEE8-F085-47FA-B642-0380F4C7F7F8} = {CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}
+		{13107F2A-11F6-4A04-9B72-19B505993BFE} = {CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20F1C4FA-B665-4072-9879-556EE753FB89}
