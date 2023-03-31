@@ -5,23 +5,25 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chpt.01", "Chpt.01", "{CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "source\Hello\Hello.csproj", "{D7BAED60-CE4D-4803-B1EA-01C8D3B2F4E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hello", "source\Hello\Hello.csproj", "{D7BAED60-CE4D-4803-B1EA-01C8D3B2F4E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloImage", "source\HelloImage\HelloImage.csproj", "{AEF9C39C-A566-4273-A823-AC818A28BB5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloImage", "source\HelloImage\HelloImage.csproj", "{AEF9C39C-A566-4273-A823-AC818A28BB5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloLocalImage", "source\HelloLocalImage\HelloLocalImage.csproj", "{1A2D5C80-560D-4814-9937-2663EAB728DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloLocalImage", "source\HelloLocalImage\HelloLocalImage.csproj", "{1A2D5C80-560D-4814-9937-2663EAB728DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlappedStackedText", "source\OverlappedStackedText\OverlappedStackedText.csproj", "{2402F07F-E22C-4491-9D92-0A5562093585}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverlappedStackedText", "source\OverlappedStackedText\OverlappedStackedText.csproj", "{2402F07F-E22C-4491-9D92-0A5562093585}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarppedText", "source\WarppedText\WarppedText.csproj", "{D8DCDEE8-F085-47FA-B642-0380F4C7F7F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarppedText", "source\WarppedText\WarppedText.csproj", "{D8DCDEE8-F085-47FA-B642-0380F4C7F7F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternationalHelloWorld", "source\InternationalHelloWorld\InternationalHelloWorld.csproj", "{13107F2A-11F6-4A04-9B72-19B505993BFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternationalHelloWorld", "source\InternationalHelloWorld\InternationalHelloWorld.csproj", "{13107F2A-11F6-4A04-9B72-19B505993BFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAudio", "source\HelloAudio\HelloAudio.csproj", "{C9C8DF89-17D1-44FE-B64C-25F125D25A19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloAudio", "source\HelloAudio\HelloAudio.csproj", "{C9C8DF89-17D1-44FE-B64C-25F125D25A19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloVideo", "source\HelloVideo\HelloVideo.csproj", "{CB401DDD-51F9-41A5-B306-71F40A3ED7DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloVideo", "source\HelloVideo\HelloVideo.csproj", "{CB401DDD-51F9-41A5-B306-71F40A3ED7DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCode", "source\HelloCode\HelloCode.csproj", "{10C64614-75DB-4D1B-936F-3CF25C72858C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloCode", "source\HelloCode\HelloCode.csproj", "{10C64614-75DB-4D1B-936F-3CF25C72858C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloImageCode", "source\HelloImageCode\HelloImageCode.csproj", "{EC13727C-F2C0-4B1A-AE16-D2DC3151B187}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{10C64614-75DB-4D1B-936F-3CF25C72858C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10C64614-75DB-4D1B-936F-3CF25C72858C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10C64614-75DB-4D1B-936F-3CF25C72858C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC13727C-F2C0-4B1A-AE16-D2DC3151B187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC13727C-F2C0-4B1A-AE16-D2DC3151B187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC13727C-F2C0-4B1A-AE16-D2DC3151B187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC13727C-F2C0-4B1A-AE16-D2DC3151B187}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +85,7 @@ Global
 		{C9C8DF89-17D1-44FE-B64C-25F125D25A19} = {CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}
 		{CB401DDD-51F9-41A5-B306-71F40A3ED7DD} = {CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}
 		{10C64614-75DB-4D1B-936F-3CF25C72858C} = {CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}
+		{EC13727C-F2C0-4B1A-AE16-D2DC3151B187} = {CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20F1C4FA-B665-4072-9879-556EE753FB89}
