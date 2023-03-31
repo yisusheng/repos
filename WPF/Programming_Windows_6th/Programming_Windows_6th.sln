@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAudio", "source\HelloA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloVideo", "source\HelloVideo\HelloVideo.csproj", "{CB401DDD-51F9-41A5-B306-71F40A3ED7DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCode", "source\HelloCode\HelloCode.csproj", "{10C64614-75DB-4D1B-936F-3CF25C72858C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{CB401DDD-51F9-41A5-B306-71F40A3ED7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB401DDD-51F9-41A5-B306-71F40A3ED7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB401DDD-51F9-41A5-B306-71F40A3ED7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C64614-75DB-4D1B-936F-3CF25C72858C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C64614-75DB-4D1B-936F-3CF25C72858C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C64614-75DB-4D1B-936F-3CF25C72858C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C64614-75DB-4D1B-936F-3CF25C72858C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{13107F2A-11F6-4A04-9B72-19B505993BFE} = {CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}
 		{C9C8DF89-17D1-44FE-B64C-25F125D25A19} = {CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}
 		{CB401DDD-51F9-41A5-B306-71F40A3ED7DD} = {CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}
+		{10C64614-75DB-4D1B-936F-3CF25C72858C} = {CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20F1C4FA-B665-4072-9879-556EE753FB89}
