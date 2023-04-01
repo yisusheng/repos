@@ -6,7 +6,21 @@
         xmlns:local="clr-namespace:GradientBrushCode"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid Name="contentGrid">
+        <TextBlock Name="txtblk"
+                   Text="Hello,Windows!"
+                   FontSize="96"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center">
+            <TextBlock.Foreground>
+                <LinearGradientBrush StartPoint="0 0" EndPoint="1 0">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Offset="0" Color="Blue"/>
+                        <GradientStop Offset="1" Color="Red"/>
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
     </Grid>
 </Window>
