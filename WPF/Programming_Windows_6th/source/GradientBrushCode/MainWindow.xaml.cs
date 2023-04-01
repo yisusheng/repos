@@ -22,6 +22,7 @@ namespace GradientBrushCode
     {
         public MainWindow()
         {
+            //RenderOptions.ProcessRenderMode = System.Windows.Interop.RenderMode.SoftwareOnly;
             InitializeComponent();
         }
     }
