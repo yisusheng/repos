@@ -31,7 +31,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chpt.02", "Chpt.02", "{0491
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradientBrushCode", "source\GradientBrushCode\GradientBrushCode.csproj", "{2015B534-B19F-4D3B-A24C-260BC6C09C8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradientBrushMarkup", "source\GradientBrushMarkup\GradientBrushMarkup.csproj", "{88C82280-EC57-4C6C-8354-1803DDCE1B9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradientBrushMarkup", "source\GradientBrushMarkup\GradientBrushMarkup.csproj", "{88C82280-EC57-4C6C-8354-1803DDCE1B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFormatting", "source\TextFormatting\TextFormatting.csproj", "{859552C4-522F-492C-9D50-A7634393CC15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{88C82280-EC57-4C6C-8354-1803DDCE1B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88C82280-EC57-4C6C-8354-1803DDCE1B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88C82280-EC57-4C6C-8354-1803DDCE1B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859552C4-522F-492C-9D50-A7634393CC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859552C4-522F-492C-9D50-A7634393CC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859552C4-522F-492C-9D50-A7634393CC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859552C4-522F-492C-9D50-A7634393CC15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{DC0F879B-B2D4-4F61-957B-B9F00D0D0AC4} = {CF689152-B9BF-41F4-8CC5-7119A8F2BD6E}
 		{2015B534-B19F-4D3B-A24C-260BC6C09C8B} = {0491FC37-F544-4735-AD26-B07234501F3B}
 		{88C82280-EC57-4C6C-8354-1803DDCE1B9A} = {0491FC37-F544-4735-AD26-B07234501F3B}
+		{859552C4-522F-492C-9D50-A7634393CC15} = {0491FC37-F544-4735-AD26-B07234501F3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20F1C4FA-B665-4072-9879-556EE753FB89}
