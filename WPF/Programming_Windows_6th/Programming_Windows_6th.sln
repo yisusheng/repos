@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFormatting", "source\Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedBrush", "source\SharedBrush\SharedBrush.csproj", "{D52F810D-E1EF-4F47-8735-C67C0DA60B82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spiral", "source\Spiral\Spiral.csproj", "{793847AE-EF0B-432D-8D43-9EC06A415D08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{D52F810D-E1EF-4F47-8735-C67C0DA60B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D52F810D-E1EF-4F47-8735-C67C0DA60B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D52F810D-E1EF-4F47-8735-C67C0DA60B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793847AE-EF0B-432D-8D43-9EC06A415D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793847AE-EF0B-432D-8D43-9EC06A415D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793847AE-EF0B-432D-8D43-9EC06A415D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793847AE-EF0B-432D-8D43-9EC06A415D08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{88C82280-EC57-4C6C-8354-1803DDCE1B9A} = {0491FC37-F544-4735-AD26-B07234501F3B}
 		{859552C4-522F-492C-9D50-A7634393CC15} = {0491FC37-F544-4735-AD26-B07234501F3B}
 		{D52F810D-E1EF-4F47-8735-C67C0DA60B82} = {0491FC37-F544-4735-AD26-B07234501F3B}
+		{793847AE-EF0B-432D-8D43-9EC06A415D08} = {0491FC37-F544-4735-AD26-B07234501F3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20F1C4FA-B665-4072-9879-556EE753FB89}
