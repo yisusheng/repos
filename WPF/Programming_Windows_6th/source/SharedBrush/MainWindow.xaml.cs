@@ -23,6 +23,10 @@ namespace SharedBrush
         public MainWindow()
         {
             InitializeComponent();
+            //TextBlock txtblk = (this.Content as Grid).Children[1] as TextBlock;
+            //LinearGradientBrush brush = txtblk.Foreground as LinearGradientBrush;
+            //brush.StartPoint = new Point(0, 1);
+            //brush.EndPoint = new Point(0, 0);
         }
     }
 }
