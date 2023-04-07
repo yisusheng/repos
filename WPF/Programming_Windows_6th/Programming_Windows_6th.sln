@@ -51,6 +51,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chpt.04", "Chpt.04", "{89D6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaiveBorderedText", "source\NaiveBorderedText\NaiveBorderedText.csproj", "{76CCB387-D785-4FFC-96FE-F27A794A78C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterBorderedText", "source\BetterBorderedText\BetterBorderedText.csproj", "{13F726C2-2636-4488-BA36-1AC50E56C49E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{76CCB387-D785-4FFC-96FE-F27A794A78C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76CCB387-D785-4FFC-96FE-F27A794A78C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76CCB387-D785-4FFC-96FE-F27A794A78C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F726C2-2636-4488-BA36-1AC50E56C49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F726C2-2636-4488-BA36-1AC50E56C49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F726C2-2636-4488-BA36-1AC50E56C49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F726C2-2636-4488-BA36-1AC50E56C49E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -162,6 +168,7 @@ Global
 		{435970A6-2945-4A2C-A743-EDE5DBCA1969} = {0491FC37-F544-4735-AD26-B07234501F3B}
 		{1B5A6466-77AD-4992-B39B-40B685E0FC9D} = {0491FC37-F544-4735-AD26-B07234501F3B}
 		{76CCB387-D785-4FFC-96FE-F27A794A78C1} = {89D6141A-F557-44E1-8AED-08EAA020C6FE}
+		{13F726C2-2636-4488-BA36-1AC50E56C49E} = {89D6141A-F557-44E1-8AED-08EAA020C6FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20F1C4FA-B665-4072-9879-556EE753FB89}
