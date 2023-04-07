@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Border BorderBrush="Red"
+                BorderThickness="12"
+                CornerRadius="24"
+                Background="Yellow"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+            <TextBlock Text="Hello Windows!"
+                       FontSize="96"
+                       Foreground="Blue"
+                       Margin="24"/>
+        </Border>
     </Grid>
 </Window>
