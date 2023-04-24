@@ -53,11 +53,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NaiveBorderedText", "source
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetterBorderedText", "source\BetterBorderedText\BetterBorderedText.csproj", "{13F726C2-2636-4488-BA36-1AC50E56C49E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEllipse", "source\SimpleEllipse\SimpleEllipse.csproj", "{2E9A142F-11A3-4B09-8A14-2C0664E645DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleEllipse", "source\SimpleEllipse\SimpleEllipse.csproj", "{2E9A142F-11A3-4B09-8A14-2C0664E645DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleVerticalStack", "source\SimpleVerticalStack\SimpleVerticalStack.csproj", "{DD483D65-35DA-4802-ABA4-50167FDE07AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleVerticalStack", "source\SimpleVerticalStack\SimpleVerticalStack.csproj", "{DD483D65-35DA-4802-ABA4-50167FDE07AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatSizeWithBindings", "source\WhatSizeWithBindings\WhatSizeWithBindings.csproj", "{0BD7F197-1C02-4E47-A54E-337601D45E07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatSizeWithBindings", "source\WhatSizeWithBindings\WhatSizeWithBindings.csproj", "{0BD7F197-1C02-4E47-A54E-337601D45E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackPanelWithScrolling", "source\StackPanelWithScrolling\StackPanelWithScrolling.csproj", "{375585C7-FFD6-42E1-9377-A4D03C6A20AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyObjectClassHierarchy", "source\DependencyObjectClassHierarchy\DependencyObjectClassHierarchy.csproj", "{EB65CCDA-9BFF-433C-85F0-5283D430CECD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +165,14 @@ Global
 		{0BD7F197-1C02-4E47-A54E-337601D45E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BD7F197-1C02-4E47-A54E-337601D45E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BD7F197-1C02-4E47-A54E-337601D45E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375585C7-FFD6-42E1-9377-A4D03C6A20AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375585C7-FFD6-42E1-9377-A4D03C6A20AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375585C7-FFD6-42E1-9377-A4D03C6A20AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375585C7-FFD6-42E1-9377-A4D03C6A20AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB65CCDA-9BFF-433C-85F0-5283D430CECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB65CCDA-9BFF-433C-85F0-5283D430CECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB65CCDA-9BFF-433C-85F0-5283D430CECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB65CCDA-9BFF-433C-85F0-5283D430CECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -190,6 +202,8 @@ Global
 		{2E9A142F-11A3-4B09-8A14-2C0664E645DA} = {89D6141A-F557-44E1-8AED-08EAA020C6FE}
 		{DD483D65-35DA-4802-ABA4-50167FDE07AF} = {89D6141A-F557-44E1-8AED-08EAA020C6FE}
 		{0BD7F197-1C02-4E47-A54E-337601D45E07} = {89D6141A-F557-44E1-8AED-08EAA020C6FE}
+		{375585C7-FFD6-42E1-9377-A4D03C6A20AE} = {89D6141A-F557-44E1-8AED-08EAA020C6FE}
+		{EB65CCDA-9BFF-433C-85F0-5283D430CECD} = {89D6141A-F557-44E1-8AED-08EAA020C6FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20F1C4FA-B665-4072-9879-556EE753FB89}
