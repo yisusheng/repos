@@ -59,9 +59,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleVerticalStack", "sour
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatSizeWithBindings", "source\WhatSizeWithBindings\WhatSizeWithBindings.csproj", "{0BD7F197-1C02-4E47-A54E-337601D45E07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackPanelWithScrolling", "source\StackPanelWithScrolling\StackPanelWithScrolling.csproj", "{375585C7-FFD6-42E1-9377-A4D03C6A20AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackPanelWithScrolling", "source\StackPanelWithScrolling\StackPanelWithScrolling.csproj", "{375585C7-FFD6-42E1-9377-A4D03C6A20AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyObjectClassHierarchy", "source\DependencyObjectClassHierarchy\DependencyObjectClassHierarchy.csproj", "{EB65CCDA-9BFF-433C-85F0-5283D430CECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyObjectClassHierarchy", "source\DependencyObjectClassHierarchy\DependencyObjectClassHierarchy.csproj", "{EB65CCDA-9BFF-433C-85F0-5283D430CECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapAndShowPoint", "source\TapAndShowPoint\TapAndShowPoint.csproj", "{FE6E02CD-6F8E-4F93-BD15-D841DB60CFEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -173,6 +175,10 @@ Global
 		{EB65CCDA-9BFF-433C-85F0-5283D430CECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB65CCDA-9BFF-433C-85F0-5283D430CECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB65CCDA-9BFF-433C-85F0-5283D430CECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6E02CD-6F8E-4F93-BD15-D841DB60CFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6E02CD-6F8E-4F93-BD15-D841DB60CFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6E02CD-6F8E-4F93-BD15-D841DB60CFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6E02CD-6F8E-4F93-BD15-D841DB60CFEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -204,6 +210,7 @@ Global
 		{0BD7F197-1C02-4E47-A54E-337601D45E07} = {89D6141A-F557-44E1-8AED-08EAA020C6FE}
 		{375585C7-FFD6-42E1-9377-A4D03C6A20AE} = {89D6141A-F557-44E1-8AED-08EAA020C6FE}
 		{EB65CCDA-9BFF-433C-85F0-5283D430CECD} = {89D6141A-F557-44E1-8AED-08EAA020C6FE}
+		{FE6E02CD-6F8E-4F93-BD15-D841DB60CFEE} = {89D6141A-F557-44E1-8AED-08EAA020C6FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20F1C4FA-B665-4072-9879-556EE753FB89}
