@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chp01", "Chp01", "{6AA2ABBA-5EF1-4499-AA10-A8EF78CC8A20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "创建联合类型的结构", "source\创建联合类型的结构\创建联合类型的结构.csproj", "{1F355FA1-CDCF-4C11-B310-33E3D66876BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "使类型可排序", "source\使类型可排序\使类型可排序.csproj", "{2E997D57-1EE1-40DD-BEF9-F07E87D8765C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使类型可查找", "source\使类型可查找\使类型可查找.csproj", "{99052C60-72E5-4476-8631-B9BB62B64847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使类型可排序Tests", "test\使代码可排序Tests\使类型可排序Tests.csproj", "{3BD09DF5-32A7-4940-8705-7E59145580B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F355FA1-CDCF-4C11-B310-33E3D66876BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F355FA1-CDCF-4C11-B310-33E3D66876BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F355FA1-CDCF-4C11-B310-33E3D66876BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F355FA1-CDCF-4C11-B310-33E3D66876BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E997D57-1EE1-40DD-BEF9-F07E87D8765C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E997D57-1EE1-40DD-BEF9-F07E87D8765C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E997D57-1EE1-40DD-BEF9-F07E87D8765C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E997D57-1EE1-40DD-BEF9-F07E87D8765C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99052C60-72E5-4476-8631-B9BB62B64847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99052C60-72E5-4476-8631-B9BB62B64847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99052C60-72E5-4476-8631-B9BB62B64847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99052C60-72E5-4476-8631-B9BB62B64847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD09DF5-32A7-4940-8705-7E59145580B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD09DF5-32A7-4940-8705-7E59145580B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD09DF5-32A7-4940-8705-7E59145580B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD09DF5-32A7-4940-8705-7E59145580B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F355FA1-CDCF-4C11-B310-33E3D66876BA} = {6AA2ABBA-5EF1-4499-AA10-A8EF78CC8A20}
+		{2E997D57-1EE1-40DD-BEF9-F07E87D8765C} = {6AA2ABBA-5EF1-4499-AA10-A8EF78CC8A20}
+		{99052C60-72E5-4476-8631-B9BB62B64847} = {6AA2ABBA-5EF1-4499-AA10-A8EF78CC8A20}
+		{3BD09DF5-32A7-4940-8705-7E59145580B8} = {6AA2ABBA-5EF1-4499-AA10-A8EF78CC8A20}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B61ED47-4237-4DF3-A33D-3945BFEEB1B0}
+	EndGlobalSection
+EndGlobal
