@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using Microsoft.Win32;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,17 @@ namespace WPF
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void addButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.silder3.Value = this.silder1.Value + this.silder2.Value;
+        }
+
+        private void saveMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog dlg = new SaveFileDialog();
+            dlg.ShowDialog();
         }
     }
 }
