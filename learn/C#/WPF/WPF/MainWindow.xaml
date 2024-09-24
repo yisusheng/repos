@@ -4,6 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF"
+        xmlns:viewmodels="clr-namespace:WPF.ViewModels"
+        d:DataContext="{d:DesignInstance Type=viewmodels:MainWindowViewModels}"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
@@ -13,7 +15,7 @@
         </Grid.RowDefinitions>
         <Menu>
             <MenuItem Header="_File">
-                <MenuItem Header="_Save" x:Name="saveMenuItem" Click="saveMenuItem_Click" />
+                <MenuItem Header="_Save" x:Name="saveMenuItem" Command="{Binding SaveCommand}" />
             </MenuItem>
         </Menu>
         <Grid Grid.Row="1">
@@ -23,10 +25,10 @@
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <Slider x:Name="silder1" Grid.Row="0" Background="LightBlue" Margin="4" Minimum="-100" Maximum="100" />
-            <Slider x:Name="silder2" Grid.Row="1" Background="LightBlue" Margin="4" Minimum="-100" Maximum="100" />
-            <Slider x:Name="silder3" Grid.Row="2" Background="LightBlue" Margin="4" Minimum="-100" Maximum="100" />
-            <Button x:Name="addButton" Grid.Row="3" Content="Add" Width="120" Height="80" Click="addButton_Click" />
+            <TextBox x:Name="tb1" Grid.Row="0" Background="LightBlue" FontSize="24" Margin="4" Text="{Binding Input1}" />
+            <TextBox x:Name="tb2" Grid.Row="1" Background="LightBlue" FontSize="24" Margin="4" Text="{Binding Input2}" />
+            <TextBox x:Name="tb3" Grid.Row="2" Background="LightBlue" FontSize="24" Margin="4" Text="{Binding Result}" />
+            <Button x:Name="addButton" Grid.Row="3" Content="Add" Width="120" Height="80" Command="{Binding AddCommand}" />
         </Grid>
     </Grid>
 </Window>

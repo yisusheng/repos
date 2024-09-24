@@ -9,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPF.ViewModels;
 
 namespace WPF
 {
@@ -20,17 +21,8 @@ namespace WPF
         public MainWindow()
         {
             InitializeComponent();
-        }
 
-        private void addButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.silder3.Value = this.silder1.Value + this.silder2.Value;
-        }
-
-        private void saveMenuItem_Click(object sender, RoutedEventArgs e)
-        {
-            SaveFileDialog dlg = new SaveFileDialog();
-            dlg.ShowDialog();
+            this.DataContext = new MainWindowViewModels();
         }
     }
 }
